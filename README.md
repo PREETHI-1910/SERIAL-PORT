@@ -23,7 +23,6 @@ CLR TI
 END
 
 
-
 ```
 ### (ii) Serial Port to Transfer a Message
 
