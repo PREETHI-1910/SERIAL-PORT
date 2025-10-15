@@ -24,11 +24,10 @@ END
 
 
 
-
-
 ```
 ### (ii) Serial Port to Transfer a Message
 
+```
 ORG 00H
 MOV TMOD,#20H
 MOV TH1,#0FCH
@@ -45,15 +44,11 @@ DJNZ  B,AGAIN
 END
 
 
-
-
-
 ```
 
 ### OUTPUT:
-![WhatsApp Image 2025-10-15 at 14 39 20_cdca8c0c](https://github.com/user-attachments/assets/cb3e3b2d-5b08-4b4c-82af-1eaebdbb27e8)
-
-![WhatsApp Image 2025-10-15 at 14 38 55_690f3da4](https://github.com/user-attachments/assets/53a6a2f7-bc73-461a-a3fc-c69060ec6f42)
+![WhatsApp Image 2025-10-15 at 14 38 55_4bae42fb](https://github.com/user-attachments/assets/0d7970bc-4931-4bb6-84cc-442517316806)
+![WhatsApp Image 2025-10-15 at 14 39 20_2d12c7ac](https://github.com/user-attachments/assets/78099099-338f-4f23-9328-b0a785cc6ccd)
 
 ### RESULT:
 Thus the Serial transfer of Single Byte / Character using 8051 KEIL was done and shown the output.
